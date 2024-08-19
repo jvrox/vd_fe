@@ -1,0 +1,76 @@
+.video-upload {
+    height: 60vh; /* Same height as hero section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .file-input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .upload-container input {
+    margin-bottom: 20px;
+  }
+  
+  video {
+    margin-top: 40%;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .upload-progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Dark background for contrast */
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .button-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .detect-button,
+  .upload-again-button {
+    display: inline-flex;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .detect-button {
+    background: green;
+    color: white;
+  }
+  
+  .upload-again-button {
+    background: blue;
+    color: white;
+  }
+  

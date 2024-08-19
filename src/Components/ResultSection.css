@@ -1,0 +1,17 @@
+.result-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .result-buttons {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
